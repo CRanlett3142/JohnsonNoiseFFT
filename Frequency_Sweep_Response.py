@@ -4,7 +4,6 @@ import time
 import numpy as np
 from pathlib import Path  
 import pandas as pd
-import SR830
 
 rm = visa.ResourceManager()
 lia = rm.open_resource("GPIB0::8::INSTR")
